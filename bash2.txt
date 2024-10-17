@@ -1,0 +1,66 @@
+2. cd
+   pwd
+
+3. mkdir test3
+
+4. cd test1
+touch 4.txt
+touch 5.txt
+touch 6.txt
+cat >> 4.txt
+row1
+row2
+row3
+row4
+cat >> 5.txt
+row1
+row2
+row3
+row4
+cat >> 6.txt
+row1
+row2
+row3
+row4
+
+5. grep "row2" 5.txt
+
+6. grep -r "row"
+
+7. grep -c "row" 6.txt
+
+8. find -name 5.txt
+
+9. find . -name "5.txt" -type f -exec rm {} \;
+
+10. echo "test" >> 4.txt
+
+11. sed -i 's/test/fail/g' 4.txt
+
+12. echo "test" >> 4.txt
+
+13. ps aux
+
+14. kill [666]
+
+15. ping rusau.net
+
+16. ping -c [5] rusau.net
+
+17. curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available" -H "Accept: application/json"
+
+18. curl -X POST "https://petstore.swagger.io/v2/user" \
+-H "accept: application/json" \
+-H "Content-Type: application/json" \
+-d '{
+  "id": 54321,
+  "username": "user123",
+  "firstName": "Bob",
+  "lastName": "Johnson",
+  "email": "bob.johnson@example.com",
+  "password": "mypassword!",
+  "phone": "1231231234",
+  "userStatus": 1
+}'
+
+
